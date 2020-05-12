@@ -59,7 +59,7 @@ if __name__=="__main__":
     freq = np.linspace(1 / T, 0.5 / step, amplitudeSpectrum.size)
 
     fig1, (ax1, ax2) = plt.subplots(2)
-    fig1.suptitle("Згенерований сигнал\nРезультат швилкого перетворення Фур'є")
+    fig1.suptitle("Згенерований сигнал\nРезультат швидкого перетворення Фур'є")
 
     ax1.set_ylabel('x(t) - сигнал')
     ax1.set_xlabel('t')
